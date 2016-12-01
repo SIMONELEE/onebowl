@@ -12,17 +12,17 @@
 </head>
 
 <body>
-<div class="container-fluid">
+
 <?php require 'header.php'?>
 	
 <?php require 'nav.php'?>
-	
+<div class="container-fluid">	
 <h1>Hello! Index Page</h1>	
 	
 </div>
-<!-- javascript -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+
+
+<?php require 'footer.php' ?>
 </body>
 </html>
 

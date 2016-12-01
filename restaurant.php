@@ -9,12 +9,15 @@
 </head>
 
 <body>
-<div class="container-fluid">
+
 <?php require 'header.php'?>
 <?php require 'nav.php'?>
+<div class="container-fluid">
 <h1>Restaurant</h1>
 <p>Community Restaurant </p>
 </div>
 
+
+<?php require 'footer.php' ?>
 </body>
 </html>

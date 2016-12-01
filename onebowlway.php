@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!--Bootstrap-->
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 
 <body>
@@ -17,5 +17,7 @@
 <h1>The One Bowl Way</h1>
 <p>Values </p>
 </div>
+
+<?php require 'footer.php' ?>
 </body>
 </html>
