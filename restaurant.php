@@ -42,9 +42,16 @@ Wednesday 18.00 - 21.00
 Our dream is to be open weekly and serve great dinner 3 times a week. <br>But for now we are open every second week on Wednesdays 18.00 - 21.00. <br>Come as you are pay as you feel. </p>
 	</div>
 
-	  <div class="section content  sectiontext col-lg-1" id="payf">
-	   <img src="images/onebowl_logo.png" width="330" alt= "One Bowl Logo" class="img-responsive">
-	   <p>Come as you are and Pay as you feel. Meals are offered on a ‘pay as you feel’ basis in order to ensure a proper meal to all, regardless of one’s situation. This means there are no set prices on any food at One Bowl. We do provide suggested donation amounts for our menu to help you understand the cost of “paying it forward” and how to help those who struggle with food insecurity. Everything you give over the suggested price, goes to help others and to continues One Bowl work.</p>
+ <div class="section content sectiontext col-lg-1" id="payf">
+     <div class="container-fluid">
+  <div class="col-sm-6">
+  	<img src="images/pay-as-you-feel-short.png" alt="One Bowl Pay As You Feel" class="img-responsive">
+  	
+  </div>
+  <div class="col-sm-6">
+  	<p>Come as you are and Pay as you feel. Meals are offered on a ‘pay as you feel’ basis in order to ensure a proper meal to all, regardless of one’s situation. This means there are no set prices on any food at One Bowl. We do provide suggested donation amounts for our menu to help you understand the cost of “paying it forward” and how to help those who struggle with food insecurity. Everything you give over the suggested price, goes to help others and to continues One Bowl work.</p> 
+  </div>
+</div>
 	</div>
 </div>
 

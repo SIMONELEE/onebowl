@@ -3550,7 +3550,7 @@ input[type="button"].btn-block {
   background-image: url(../images/texture.png);
 }
 .sectiontext {
-  padding: 5em 12em 7em 2em;
+  padding: 5em 2em 7em 2em;
 }
 .sectiontextsplit {
   padding: 1em 5em 5em 7em;
@@ -3570,7 +3570,12 @@ input[type="button"].btn-block {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .sectiontext {
-    padding: 1em 6em 5em 6em;
+    padding: 5em 3em 5em 4em;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .sectiontext {
+    padding: 5em 1em 2em 2em;
   }
 }
 #indexpage {
@@ -3594,13 +3599,13 @@ input[type="button"].btn-block {
   text-align: center;
 }
 #weare {
-  background-color: white;
+  background-color: grey;
 }
 #westarted {
   background-color: #6ED389;
 }
 #mission {
-  background-color: #F4E75E;
+  background-color: #4D75A5;
 }
 #foodins {
   background-color: #EE9F5D;
