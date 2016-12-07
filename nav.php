@@ -6,12 +6,11 @@ $curpage = basename($_SERVER['PHP_SELF']);
 /*Afterwards I've used a conditional statement that if the file .php (depending on which one is active) is the current/active page it should be in the class "active".*/
 ?>
 
-<div class="row">
+<div class="container-fluid">
     <nav class="navbar navbar-default" role="navigation">
-      <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -19,7 +18,7 @@ $curpage = basename($_SERVER['PHP_SELF']);
           </button>
         </div>
 
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
+          <div class="collapse navbar-collapse" id="navbar-collapse-1"> 
 			<ul class="nav navbar-nav">
 			  <li><a href="index.php" <?php if($curpage == 'index.php') {
 				echo 'class="active"';
@@ -35,12 +34,11 @@ $curpage = basename($_SERVER['PHP_SELF']);
 				} ?>>Volunteer</a></li>
 			<li><a href="events.php" <?php if($curpage == 'events.php') {
 				echo 'class="active"';
-				} ?>>Events</a></li>
+				} ?>>Street Bowl</a></li>
 			</ul>
         </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
     </nav>
-  </div>
+  </div><!-- /.container-fluid -->
 
 <!-- javascript -->
   <script src="js/jquery.min.js"></script>
