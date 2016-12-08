@@ -24,11 +24,18 @@ The restaurant is also the main place where we build One Bowl community. For mor
 	</div>
 
 	<div class="section content sectiontext col-lg-1" id="menu">
-	   <h1>Menu</h1>
-	   <p>We want to include everyone at our table, that is why we cook vegan and vegetarian food. Every time our fantastic volunteers prepare different dish which are based on Eastern, vegetarian cuisine with a lot of flavours and history behind every dish. 
+	 <div class="container-fluid">
+  <div class="col-sm-6">
+  	<img src="images/.png" alt="One Bowl Pay As You Feel" class="img-responsive">
+  	
+  </div>
+  <div class="col-sm-6">
+  	<p>We want to include everyone at our table, that is why we cook vegan and vegetarian food. Every time our fantastic volunteers prepare different dish which are based on Eastern, vegetarian cuisine with a lot of flavours and history behind every dish. 
 We are against food waste, so please tell us if you are coming, so we can prepare enough for everyone.
 <br><br>
 For weekly menu please visit our facebook page, where you can also sign up for the next community dinner.</p>
+  </div>
+</div>
 	</div>
 
 	 <div class="section content sectiontext col-lg-1" id="location">
