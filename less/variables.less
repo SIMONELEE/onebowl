@@ -14,7 +14,7 @@
 @gray-light:             lighten(@gray-base, 46.7%); // #777
 @gray-lighter:           lighten(@gray-base, 93.5%); // #eee
 
-@brand-primary:         darken(#428bca, 6.5%); // #337ab7
+@brand-primary:         white; // #337ab7
 @brand-success:         #5cb85c;
 @brand-info:            #5bc0de;
 @brand-warning:         #f0ad4e;
@@ -24,6 +24,11 @@
 @obrightyellow:			#ffe736;
 @oblgrey:				#dededf;
 @obdgrey:				#343334;
+@obgreen:				#6ED389;
+@obdblue:				#4D75A5;
+@oborange: 				#EE9F5D;
+@color-hover: 			lighten(@obrightyellow, 15%);
+
 
 
 //== Scaffolding
@@ -82,8 +87,16 @@ font-family: Poppins-SemiBold;
 src: url("../fonts/Poppins-SemiBold.ttf");
 }
 
+@font-face {
+font-family: linowrite;
+src: url("../fonts/linowrite.ttf");
+}
+
+
+
 @font-family-sans-serif:  NorthernSoul-Caps, Helvetica, Arial, sans-serif;
 @font-family-serif:       Poppins-Regular, "Times New Roman", Times, serif;
+@font-family-type:        linowrite;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;

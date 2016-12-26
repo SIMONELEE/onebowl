@@ -11,14 +11,13 @@
 <body>
 
 <?php require 'header.php'?>
-<?php require 'nav.php'?>
 <div class="container-fixed">
 	<div class="section content sectiontext col-lg-1" id="faq">
    		<h1>Frequently asked questions</h1>
-	   <p><b>Where is the nearest parking lot?</b><br>
-		The whole area near Ansgårdskirken has parking spots. You can park there for free. 
+	   <p class="type"><b>Where is the nearest parking lot?</b><br>
+		The whole area near Ansgaardskirken has parking spots. You can park there for free. 
 		<br><br>
-		<b>Because of my allergies I would like to know where I can find information about the ingredients used for the dishes?</b>
+		<b >Because of my allergies I would like to know where I can find information about the ingredients used for the dishes?</b>
 		<br>
 		Please contact our stuff before you come and they will prepare a dish specially for you.
 		<br><br>
